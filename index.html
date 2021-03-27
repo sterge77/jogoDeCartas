@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CardsGame</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/login/login.css">
 
     <!--Colocando logo-->
     <link rel="shortcut icon" href="./svg/favicon.svg" type="image/x-icon">
@@ -22,11 +23,42 @@
         <source src="./videos/background.mp4" type="video/mp4">
     </video>
 
+    <!--Tag de acessibilidade, não muda nada visualmente mas melhora no SEO-->
     <main>
+            
+        <div class="text">
+            <h1>CardsGame</h1>
+            <span>Um jogo de cartas para todos</span>
+        </div>
         
+        <!--Boa pra unir as div-->
+        <section class="loginContainer">
+
+            <div class="login">
+
+                <label for="username" class="label">Nome de jogador:</label> <br/>
+                <input type="text" name="username" id="username" class="input" placeholder="Nome de usuário"/> <br/>
+
+                <label for="mail" class="label">Email:</label> <br/>
+                <input type="email" name="mail" id="email" class="input" placeholder="Example@gmail.com"/> <br/>
+
+                <label for="password" class="label">Senha:</label> <br/>
+                <input type="password" name="password" id="password" class="input"/> <br/>
+
+                <label for="passwordAgain" class="label">Senha novamente:</label> <br/>
+                <input type="password" name="passwordAgain" id="passwordAgain" class="input"/> <br/>
+
+            </div>
+
+            <div class="socialLogin">
+                futuros logins sociais
+            </div>
+
+        </section>
+
     </main>
 
-    <script src='script.js'></script>
+    <script src='./script.js'></script>
 
 </body>
 </html>
