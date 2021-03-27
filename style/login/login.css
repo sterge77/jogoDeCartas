@@ -62,12 +62,8 @@
     transition-property: background-color;
 }
 .iconPassword > img{
-    top: 378px;
-    right: 620px;
-}
-.iconPassword:last-child {
-    top: 467px;
-    right: 620px;
+    top: 304px;
+    right: 476px;
 }
 .iconPassword img:hover {
     background-color: rgba(0, 0, 0, 0.3);
