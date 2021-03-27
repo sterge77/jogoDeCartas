@@ -27,7 +27,7 @@
     <main>
             
         <div class="text">
-            <h1>CardsGame</h1>
+            <h1>Cards<span>Game</span></h1>
             <span>Um jogo de cartas para todos</span>
         </div>
         
@@ -48,6 +48,11 @@
                 <label for="passwordAgain" class="label">Senha novamente:</label> <br/>
                 <input type="password" name="passwordAgain" id="passwordAgain" class="input"/> <br/>
 
+                <!--icones que vou colocar usando position no css-->
+                <div class="iconPassword">
+                    <img src="./svg/login/show.svg" alt="show" id="passwordIcon" onclick="passwordVisibility('password')"/>
+                </div>
+
             </div>
 
             <div class="socialLogin">
@@ -58,7 +63,8 @@
 
     </main>
 
-    <script src='./script.js'></script>
+    <script src='./src/login/script.js'></script>
+    <script src="./src/login/showPassword.js"></script>
 
 </body>
 </html>
